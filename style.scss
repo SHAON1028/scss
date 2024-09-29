@@ -1,0 +1,9 @@
+// order should be maintained otherwise it will compiled errors
+// partials
+
+// @import "css/partials/variables"; nested folders
+@import "variables";
+@import "mixin";
+@import "inheritance";
+@import "menu";
+@import "btn";

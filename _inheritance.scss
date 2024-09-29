@@ -1,0 +1,9 @@
+// inheritance
+// Using @extend lets you share a set of CSS properties from one selector to another.
+%btn {
+  padding: 15px 30px;
+  outline: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}

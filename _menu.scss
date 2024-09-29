@@ -1,0 +1,30 @@
+.menu {
+  @include menuDesign;
+  &__item {
+    padding: 15px 30px;
+  }
+
+  &__link {
+    color: $primary-color;
+    font-size: $font-size;
+    text-decoration: none;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+.footer-menu {
+  @include menuDesign;
+  &__item {
+    padding: 15px 30px;
+  }
+  &__link {
+    color: $primary-color;
+    font-size: $font-size;
+    text-decoration: none;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}

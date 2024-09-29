@@ -1,0 +1,55 @@
+.yahoo, .google {
+  padding: 15px 30px;
+  outline: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+.menu__item {
+  padding: 15px 30px;
+}
+.menu__link {
+  color: tomato;
+  font-size: 24px;
+  text-decoration: none;
+}
+.menu__link:hover {
+  color: teal;
+}
+
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+.footer-menu__item {
+  padding: 15px 30px;
+}
+.footer-menu__link {
+  color: tomato;
+  font-size: 24px;
+  text-decoration: none;
+}
+.footer-menu__link:hover {
+  color: teal;
+}
+
+.google {
+  background-color: green;
+  color: white;
+}
+
+.yahoo {
+  background-color: yellow;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */
